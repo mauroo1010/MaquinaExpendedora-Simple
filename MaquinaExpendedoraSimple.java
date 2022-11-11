@@ -17,7 +17,7 @@ public class MaquinaExpendedoraSimple {
      * del billete que se recibe es mayor que 0.
      */
     
-    public MaquinaExpendedoraSimple(int precioDelBillete, String origen, String destino) {
+    public MaquinaExpendedoraSimple(int precioDelBilletel, String destino){
         precioBillete = 20;
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
