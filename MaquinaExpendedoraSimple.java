@@ -22,7 +22,7 @@ public class MaquinaExpendedoraSimple {
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "Leon";
-        estacionDestino = "Salamanca";
+        estacionDestino = destino;
     }
     public MaquinaExpendedoraSimple() {
         precioBillete = 20;
