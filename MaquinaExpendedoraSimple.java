@@ -31,7 +31,9 @@ public class MaquinaExpendedoraSimple {
         estacionOrigen = "Leon";
         estacionDestino = "Salamanca";
     }
-
+    public void reducirPrecioBillete(int reduccionDelBillete) { 
+        precioBillete = precioBillete - reduccionDelBillete;
+    }    
     /**
      * Devuelve el precio del billete
      */
